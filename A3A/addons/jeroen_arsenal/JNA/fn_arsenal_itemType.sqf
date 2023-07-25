@@ -181,7 +181,7 @@ private _itemCategory = switch true do {
 			// Everything else
 			default {
 				// haaaaack
-				if (_item isKindOf ["SPE_MUZZLE_FAKEMAG", configFile >> "CfgMagazines"]) exitWith {"junk"};
+				if (_item isKindOf ["SPE_MUZZLE_FAKEMAG", configFile >> "CfgMagazines"]) exitWith {"Junk"};
 				"Magazine";
 			};
 		};
@@ -195,9 +195,10 @@ private _itemCategory = switch true do {
 	case (isClass (configFile >> "CfgGlasses" >> _item)): {
 		"Glasses";
 	};
+	default { "Junk" };			// Loadout code can send empty strings. Possibly other rubbish.
 };
 
-if (_itemCategory == "junk") exitWith {-1};
+if (_itemCategory == "Junk") exitWith {-1};
 
 INITTYPES
 

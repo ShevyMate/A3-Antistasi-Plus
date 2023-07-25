@@ -2,6 +2,30 @@
 Changelog
 ==========
 
+
+Version 3.3.1
+===============
+
+.. note::
+   25th July 2023
+
+.. admonition:: Bugfixes
+
+   * :issue:`2853` Changed SPE-IFA militia cars to kubelwagens, fix unarmed car navigation bug
+   * :issue:`2852` Fixed arsenal loadout loading broken by SPE fakemag check
+
+.. warning::
+
+   * Please note that this changelog may contain both spelling/grammatical errors and/or factual errors. Should any factual errors exist, we apologise but with the sheer number of changes made per version it can be easy to lose or mistake a change when writing up the changelog.
+
+|
+
+-----
+
+|
+
+
+
 Version 3.3.0
 ===============
 
