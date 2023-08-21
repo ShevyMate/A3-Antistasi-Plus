@@ -210,7 +210,7 @@ class Templates
         side = "Inv";
         flagTexture = "\A3_Aegis\Data_F_Aegis\Flags\flag_RUS_CO.paa";
         name = "Aegis AFRF Temperate";
-        file = "Aegis_AI_AFRF_Arid";
+        file = "Aegis_AI_AFRF_Temperate";
         climate[] = {"temperate"};
         description = $STR_A3AP_setupFactionsTab_aegis_afrf;
     };
