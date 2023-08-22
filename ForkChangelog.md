@@ -1,17 +1,12 @@
 # Changelog
 
-<!-- ## 2.x.x
-### Additions
-- (Aegis) AUKUS, NATO, CSAT, AAF factions (Aegis factions are beta/experimental so they could be used only via their dev branch versions of Aegis, Atlas and Opposing Force mods)
-- (Aegis) CHDKZ and Ion PMC Rival factions (Aegis factions are beta/experimental so they could be used only via their dev branch versions of Aegis, Atlas and Opposing Force mods) -->
-
 ## 2.3
 ### Additions
 - Official Aegis support
 - Šumava terrain support
 - (Aegis) AUKUS, NATO, CSAT, AAF, LDF, AFRF factions
 - (Aegis) CHDKZ and Ion PMC Rival factions
-- 
+- (Aegis) FIA, Syndikat and Livonian Militia rebel factions 
 
 ### Changes
 - AI will use militia APCs in support actions and attacks too, not only roadblocks
