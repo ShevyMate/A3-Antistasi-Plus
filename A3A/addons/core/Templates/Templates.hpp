@@ -268,6 +268,12 @@ class Templates
         file = "Aegis_AI_NATO_Temperate";
         climate[] = {"temperate"};
     };
+    class Aegis_NATO_Tropical : Aegis_NATO_Arid
+    {
+        name = "Aegis NATO Tropical";
+        file = "Aegis_AI_NATO_Tropical";
+        climate[] = {"tropical"};
+    };
 
     class Aegis_FIA : Aegis_Base
     {
