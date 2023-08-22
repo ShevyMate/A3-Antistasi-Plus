@@ -144,8 +144,8 @@ _loadoutData set ["grenadeLaunchers", [
 ]];
 _loadoutData set ["marksmanRifles", [
 ["srifle_DMR_04_F", "", "acc_flashlight", "optic_DMS_weathered_Kir_F",  ["10Rnd_127x54_Mag"], [], ""],
-["srifle_DMR_01_black_F", "muzzle_mzls_B", "acc_flashlight", "optic_MRCO",  ["10Rnd_9x21_Mag"], [], "bipod_02_F_blk"],
-["srifle_DMR_01_black_F", "", "acc_flashlight", "optic_MRCO",  ["10Rnd_9x21_Mag"], [], ""]
+["srifle_DMR_01_black_F", "muzzle_mzls_B", "acc_flashlight", "optic_MRCO",  ["10Rnd_762x54_Mag"], [], "bipod_02_F_blk"],
+["srifle_DMR_01_black_F", "", "acc_flashlight", "optic_MRCO",  ["10Rnd_762x54_Mag"], [], ""]
 ]];
 _loadoutData set ["lightATLaunchers", [
 ["launch_RPG7_F", "", "", "", ["RPG7_F", "RPG7_F", "RPG7_F"], [], ""],
@@ -238,7 +238,7 @@ _loadoutData set ["uniforms", [
 	"Opf_U_I_I_Uniform_01_hex_F",
 	"Opf_U_O_S_Uniform_01_sweater_F",
 	"Opf_U_O_S_Uniform_01_taiga_F",
-	"Opf_U_I_I_Uniform_01_urb_F"
+	"Opf_U_I_I_Uniform_01_urb_F",
 	"Opf_U_I_I_Uniform_01_tshirt_black_F"
 ]];
 _loadoutData set ["heavyUniforms", [
