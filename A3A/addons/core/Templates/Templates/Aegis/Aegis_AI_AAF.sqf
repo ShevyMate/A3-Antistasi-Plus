@@ -83,8 +83,8 @@ private _policeVehs = if (_hasContact) then {
 ["staticMortars", ["B_Mortar_01_F"]] call _fnc_saveToTemplate;
 ["staticHowitzers", []] call _fnc_saveToTemplate;
 
-["vehicleRadar", ""] call _fnc_saveToTemplate;
-["vehicleSam", ""] call _fnc_saveToTemplate;
+["vehicleRadar", "I_LT_01_scout_F"] call _fnc_saveToTemplate;
+["vehicleSam", "I_LT_01_AA_F"] call _fnc_saveToTemplate;
 
 ["mortarMagazineHE", "8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
 ["mortarMagazineSmoke", "8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
@@ -112,7 +112,13 @@ if (_hasWs) then {
     ["I_APC_tracked_03_cannon_F", ["showCamonetHull", 0.3, "showCamonetTurret", 0.3, "showTools", 0.3, "showSLATHull", 0.3, "showSLATTurret", 0.3]],
     ["I_LT_01_AA_F", ["showCamonetHull", 0.3, "showTools", 0.25, "showSLATHull", 0.3]],
     ["I_LT_01_AT_F", ["showCamonetHull", 0.3, "showTools", 0.25, "showSLATHull", 0.3]],
-    ["I_LT_01_cannon_F", ["showCamonetHull", 0.3, "showTools", 0.25, "showSLATHull", 0.3]]
+    ["I_LT_01_cannon_F", ["showCamonetHull", 0.3, "showTools", 0.25, "showSLATHull", 0.3]],
+    ["I_LT_01_scout_F", ["showCamonetHull", 0.3, "showTools", 0.25, "showSLATHull", 0.3]]
+]] call _fnc_saveToTemplate;
+
+["variants", [
+    ["I_LT_01_AA_F", ["Indep_Olive", 0]],
+    ["I_LT_01_scout_F",["Indep_Olive", 0]]
 ]] call _fnc_saveToTemplate;
 
 /////////////////////
