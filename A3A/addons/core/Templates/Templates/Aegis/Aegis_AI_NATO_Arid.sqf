@@ -798,10 +798,10 @@ _militiaLoadoutData set ["machineGuns", [
 _militiaLoadoutData set ["marksmanRifles", [
 ["srifle_DMR_06_camo_F", "", "", "Aegis_optic_ACOG", ["10Rnd_Mk14_762x51_Mag"], [], ""],
 ["srifle_DMR_06_camo_F", "", "", "optic_MRCO", ["10Rnd_Mk14_762x51_Mag"], [], ""],
-["Aegis_arifle_SR25_snd_F", "", "", "Aegis_optic_ACOG_sand", ["10Rnd_Mk14_762x51_Mag"], [], ""],
-["Aegis_arifle_SR25_snd_F", "", "", "optic_MRCO", ["10Rnd_Mk14_762x51_Mag"], [], ""],
-["Aegis_arifle_SR25_MR_snd_F", "", "", "Aegis_optic_ACOG_sand", ["10Rnd_Mk14_762x51_Mag"], [], ""],
-["Aegis_arifle_SR25_MR_snd_F", "", "", "optic_MRCO", ["10Rnd_Mk14_762x51_Mag"], [], ""]
+["Aegis_arifle_SR25_snd_F", "", "", "Aegis_optic_ACOG_sand", [], [], ""],
+["Aegis_arifle_SR25_snd_F", "", "", "optic_MRCO", [], [], ""],
+["Aegis_arifle_SR25_MR_snd_F", "", "", "Aegis_optic_ACOG_sand", [], [], ""],
+["Aegis_arifle_SR25_MR_snd_F", "", "", "optic_MRCO", [], [], ""]
 ]];
 _militiaLoadoutData set ["sniperRifles", [
 ["srifle_LRR_F", "", "", "optic_SOS", [], [], ""],
