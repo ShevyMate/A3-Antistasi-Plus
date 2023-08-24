@@ -9,7 +9,7 @@ while {_sleepTime > 0} do
     if((spawner getVariable _airport) != 2) exitWith {};
 };
 
-private _gunshipData = [Invaders, _airport, _timerIndex, "O_T_VTOL_02_vehicle_dynamicLoadout_F", FactionGet(inv,"unitPilot"), _supportPos] call A3A_fnc_SUP_gunshipSpawn;
+private _gunshipData = [Invaders, _airport, _timerIndex, (A3A_faction_inv get "vehiclesPlanesGunship"), FactionGet(inv,"unitPilot"), _supportPos] call A3A_fnc_SUP_gunshipSpawn;
 _gunshipData params ["_gunship", "_strikeGroup"];
 
 {

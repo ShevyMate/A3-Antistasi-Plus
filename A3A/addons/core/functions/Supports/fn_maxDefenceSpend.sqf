@@ -45,7 +45,13 @@ if (_target isEqualType objNull and {_target isKindOf "Air"}) exitWith
 
     // TODO: Might need to constrain this with the strike list so that you don't get multiple supports sent against one aircraft
     
-    private _isArmed = typeOf _target in (FactionGet(all, "vehiclesHelisLightAttack") + FactionGet(all, "vehiclesHelisAttack") + FactionGet(all, "vehiclesPlanesCAS") + FactionGet(all, "vehiclesPlanesAA"));
+    private _isArmed = typeOf _target in (
+        FactionGet(all, "vehiclesHelisLightAttack") + 
+        FactionGet(all, "vehiclesHelisAttack") + 
+        FactionGet(all, "vehiclesPlanesCAS") + 
+        FactionGet(all, "vehiclesPlanesAA") +
+        FactionGet(all, "vehiclesPlanesGunship")
+    );
     private _maxAASpend = _maxResources * ([0.1, 0.3] select _isArmed);
     private _curAASpend = 0;
     {
