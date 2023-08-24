@@ -168,10 +168,6 @@ _mortarGroup setVariable ["Mortar", _mortar, true];
             {
                 ["TaskSucceeded", ["", format [localize "STR_notifiers_roving_mortar_crew_killed", A3A_faction_riv get "name"]]] remoteExec ["BIS_fnc_showNotification", teamPlayer];
                 [10, 60] remoteExec ["SCRT_fnc_rivals_reduceActivity",2];
-                private _mortar = _group getVariable "Mortar";
-                private _timerArray = _mortar getVariable "TimerArray";
-                private _timerIndex = _mortar getVariable "TimerIndex";
-                _timerArray set [_timerIndex, (_timerArray select _timerIndex) + 3600];
             };
         }
     ];
