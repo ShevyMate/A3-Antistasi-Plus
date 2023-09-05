@@ -4,7 +4,7 @@
   <p>
     <i>An Arma 3 persistent multiplayer scenario about guerilla warfare tactics.</i>
     <br/>
-    <i>Fork of Antistasi Community Version focused on expanding player's capabilities and introducing new gameplay features.</i>
+    <i>Fork of Antistasi Plus created by Socrates, which is a fork of Antistasi Community Version focused on expanding player's capabilities and introducing new gameplay features.</i>
   </p>
   <p>
     <a href="https://github.com/igorkis-scrts/A3-Antistasi-Plus/releases/latest">
